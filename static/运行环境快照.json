@@ -1,0 +1,6 @@
+{
+  "schema_version": 1,
+  "generated_for": "public-source-example",
+  "nodes": [],
+  "note": "Configure and publish runtimes on your own nodes; no live host inventory."
+}

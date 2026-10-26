@@ -1,0 +1,5 @@
+[
+  {"name":"Python 示例","kind":"python","runtime":"python","entry":"main.py","args":[],"cores":1,"memory_gb":2,"estimated_minutes":5,"max_minutes":30,"target":"auto"},
+  {"name":"MATLAB 示例","kind":"matlab","runtime":"matlab","entry":"analysis.m","cores":2,"memory_gb":4,"estimated_minutes":10,"max_minutes":60,"target":"auto"},
+  {"name":"COMSOL 示例","kind":"comsol","runtime":"comsol","entry":"model.mph","cores":4,"memory_gb":8,"estimated_minutes":30,"max_minutes":120,"target":"auto"}
+]
