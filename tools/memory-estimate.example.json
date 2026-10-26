@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "persistent": [
+    {"name": "Interpreter and native libraries: agent-provided estimate", "bytes": 536870912}
+  ],
+  "stages": [
+    {"name": "load", "allocations": [{"name": "Input array", "shape": [1000000, 64], "dtype": "float64"}]},
+    {"name": "compute", "allocations": [
+      {"name": "Input and two simultaneous copies", "shape": [1000000, 64], "dtype": "float64", "copies": 3},
+      {"name": "Per-process working buffers", "shape": [1000000], "dtype": "float64", "processes": 4}
+    ]},
+    {"name": "save and pack", "allocations": [{"name": "Output and compression buffer", "bytes": 268435456}]}
+  ],
+  "unquantified": ["Replace the example values with this task's real allocation sizes; native solver workspace must be separately estimated if used."]
+}
