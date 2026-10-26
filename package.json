@@ -1,0 +1,12 @@
+{
+  "name": "labcompute-center",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Scientific compute controller and workers",
+  "scripts": {
+    "test": "node tools/run-js-tests.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}
